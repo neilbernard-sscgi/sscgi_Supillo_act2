@@ -55,7 +55,16 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-
+.section-pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.section-text-p1 {
+  text-align: center;
+  color: black;
+}
 /* PROFILE SECTION */
 
 #home {
@@ -67,14 +76,8 @@ section {
   align-items: center;
   scroll-margin-top: 5rem;
 }
-.home-pic-container img {
+.profile-pic {
   border-radius: 50%;
-}
-.home-pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
 }
 
 .home-text {
@@ -84,11 +87,6 @@ section {
 
 .home-text p {
   font-weight: 600;
-}
-
-.home-text-p1 {
-  text-align: center;
-  color: var(--secondary-color);
 }
 
 .home-text-p2 {
@@ -111,8 +109,52 @@ section {
 }
 
 /* About styles */
+
 .home-container {
   display: flex;
+}
+.about-containers {
+  gap: 1.4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.details-container {
+  padding: 1rem;
+  flex: 1;
+  background: var(--primary-color);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+}
+
+.section-pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 /* ICONS */
