@@ -12,3 +12,37 @@ body {
   color: black;
 }
 /* nav bar */
+.fixed {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background-color: var(--primary-color);
+}
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 11vh;
+}
+
+.nav-links {
+  gap: 1.4rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: black;
+}
