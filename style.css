@@ -46,3 +46,123 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: black;
 }
+
+/* Section styles*/
+section {
+  padding-top: 4vh;
+
+  margin: 0 6rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/* PROFILE SECTION */
+
+#home {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  height: 80vh;
+  padding: 0;
+  align-items: center;
+  scroll-margin-top: 5rem;
+}
+.home-pic-container img {
+  border-radius: 50%;
+}
+.home-pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.home-text {
+  align-self: center;
+  text-align: center;
+}
+
+.home-text p {
+  font-weight: 600;
+}
+
+.home-text-p1 {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.home-text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.title {
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* About styles */
+.home-container {
+  display: flex;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+#profile .btn {
+  width: 10rem;
+}
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 0.7rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: black;
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: white;
+  color: black;
+  border: black 1px solid;
+}
+
+.btn-color-2 {
+  background: white;
+  color: black;
+  border: black 1px solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
